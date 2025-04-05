@@ -22,5 +22,4 @@ while ask == 'yes':
             time.sleep(1)
     print("Yes... This was the math quiz.")
 
-print("Alright, goodbye.")
 quit()
