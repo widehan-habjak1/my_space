@@ -36,34 +36,3 @@ for x, y in loc:
 turtle.done()
 
 # ------------------------------------------------
-
-import random
-import time
-import turtle
-
-loc = []
-n = int(input("Berapa titik acak yang ingin dibuat? "))
-
-for i in range(1, n + 1):
-    z0 = random.random()
-    z1 = random.random()
-    loc.append((z0, z1))
-    print('({}, {})'.format(z0, z1))
-    time.sleep(0.01)
-
-turtle.setup(550, 550)
-turtle.screensize(500, 500)
-
-turtle.shape('turtle')
-turtle.pencolor('black')
-turtle.penup()
-turtle.hideturtle()
-turtle.turtlesize(1, 1, 1)
-
-scale = 200  # meningkatkan agar terlihat jelas
-for x, y in loc:
-    # ubah range 0~1 menjadi -250~250 (agar muncul di tengah)
-    turtle.goto((x - 0.5) * scale * 2, (y - 0.5) * scale * 2)
-    turtle.dot()
-
-turtle.done()
