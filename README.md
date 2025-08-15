@@ -1,5 +1,5 @@
 # My Programmings
-this is all about my programming world, space... it's a suprising that AI only reads 0 and 1
+this is all about my programming world, btw it's suprising that AI only reads 0 and 1
 .
 .
 
