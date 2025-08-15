@@ -1,4 +1,4 @@
-# First Repo,.
+# First Repo.
 this is all about my programming world, btw it's suprising that AI still reads 0 and 1.
 .
 .
